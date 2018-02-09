@@ -1,23 +1,16 @@
 {
-  "name": "d3-metar",
-  "version": "0.0.9",
+  "name": "d3-cogeo",
+  "version": "0.0.4",
   "main": "dist/bundle.js",
-  "unpkg": "dist/publish.js",
+  "unpkg": "dist/bundle.js",
   "scripts": {
     "build": "webpack",
-    "build-rollup": "rollup -c",
-    "serve": "webpack-dev-server --open",
-    "dev": "webpack -d --watch",
-    "prepublish": "npm run build-rollup"
+    "dev": "webpack -d --watch"
   },
   "dependencies": {
-    "d3": "^4.13.0",
     "geotiff": "^0.4.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack": "^3.10.0"
   }
 }
