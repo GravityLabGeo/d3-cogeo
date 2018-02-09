@@ -1,0 +1,23 @@
+{
+  "name": "d3-metar",
+  "version": "0.0.9",
+  "main": "dist/bundle.js",
+  "unpkg": "dist/publish.js",
+  "scripts": {
+    "build": "webpack",
+    "build-rollup": "rollup -c",
+    "serve": "webpack-dev-server --open",
+    "dev": "webpack -d --watch",
+    "prepublish": "npm run build-rollup"
+  },
+  "dependencies": {
+    "d3": "^4.13.0",
+    "geotiff": "^0.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
